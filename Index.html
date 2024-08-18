@@ -12,10 +12,6 @@
             box-sizing: border-box;
         }
 
-        body {
-            /* display: flex; */
-        }
-
         .container {
             display: flex;
         }
@@ -34,17 +30,17 @@
 
         /* Responsive Area */
 
-        @media (max-width: 425px) {
+        @media (max-width: 425px) {}
 
-        }
-        
         @media (max-width: 768px) {
             .container {
                 flex-direction: column;
                 align-items: center;
             }
 
-            .cont-1,.cont-2,.cont-3 {
+            .cont-1,
+            .cont-2,
+            .cont-3 {
                 flex: 1 1 100%;
                 max-width: 90%;
             }
@@ -54,16 +50,22 @@
 
 <body>
     <section class="design-process">
-        <h1 style="color: royalblue; margin: 60px 10px 30px 70px; font-size: 1.8rem;">Design process</h1>
-        <p style="color: #2e2e2e; font-size: 1.2rem; margin-left: 70px;">Research & requirement gathering</p>
-        <p style="margin-left: 70px; font-size: 1.2rem;">To efficiently learn about the current scenario, I used these
+        <h1 style="color: royalblue; margin: 60px 10px 30px 30px; font-size: 1.8rem;">Design process</h1>
+        <p style="color: #2e2e2e; font-size: 16px; margin-left: 30px;">Research & requirement gathering</p>
+        <p style="margin-left: 30px; font-size: 16px; padding: 5px 0px;">To efficiently learn about the current
+            scenario, I used these
             methods:</p>
 
         <div class="container">
             <div class="cont-1">
                 <img src="Posters/Post-1.png" alt="Business analysis image">
-                <h2 style="font-size: 2rem; color: #4f4f4f; margin-left: 50px;">Business analysis</h2>
-                <p style="font-size: 1.2rem; padding: 10px 30px 10px 10px; margin-left: 40px; color: #252525;">
+                <h2 style="font-size: 22px;
+                color: #4f4f4f;
+                margin-left: 30px;">Business analysis</h2>
+                <p style="font-size: 14px;
+                padding: 5px 90px 10px 10px;
+                margin-left: 20px;
+                color: #252525;">
                     Developing service blueprint to visualizing user touch points & their journey, highlighting
                     potential
                     areas of improvement.</p>
@@ -71,16 +73,27 @@
 
             <div class="cont-2">
                 <img src="Posters/Post-2.png" alt="Internal research image">
-                <h2 style="font-size: 2rem; color: #4f4f4f; margin-left: 50px;">Internal research</h2>
-                <p style="font-size: 1.2rem; padding: 10px 30px 10px 0px; color: #252525; margin-left: 50px;">Engaging with management &
+                <h2 style="font-size: 22px;
+                color: #4f4f4f;
+                margin-left: 30px;">Internal research</h2>
+                <p style="font-size: 14px;
+                padding: 5px 90px 10px 10px;
+                margin-left: 20px;
+                color: #252525;">Engaging
+                    with management &
                     medical team to align objectives, ensuring a holistic understanding from
                     healthcare professionals.</p>
             </div>
 
             <div class="cont-3">
                 <img src="Posters/Post-3.png" alt="External research image">
-                <h2 style="font-size: 2rem; color: #4f4f4f; margin-left: 50px;">External research</h2>
-                <p style="font-size: 1.3rem; padding: 10px 30px 10px 0px; margin: 5px 0 40px 50px; color: #252525;">
+                <h2 style="font-size: 22px;
+                color: #4f4f4f;
+                margin-left: 30px;">External research</h2>
+                <p style="font-size: 14px;
+                padding: 5px 90px 10px 10px;
+                margin: 0px 0px 30px 20px;
+                color: #252525;">
                     Validating our assumptions, gathering user feedback & assessing competitors approach to plan our
                     development priorities.</p>
             </div>
